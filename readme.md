@@ -165,6 +165,6 @@ Swagger UI should be available after startup at:
 - Many string filters use case-insensitive `LIKE` matching.
 - `seller` and `location` are matched by exact value.
 - The controller validates some string query values with minimum length constraints.
-- For a proper controller base path, `@RequestMapping("/api/inventory")` is recommended instead of using the path argument on `@RestController`.
+
 
 
