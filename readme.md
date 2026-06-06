@@ -167,10 +167,4 @@ Swagger UI should be available after startup at:
 - The controller validates some string query values with minimum length constraints.
 - For a proper controller base path, `@RequestMapping("/api/inventory")` is recommended instead of using the path argument on `@RestController`.
 
-## Future Improvements
 
-- add create/update/delete inventory operations
-- secure API endpoints2026-02-06
-- expose H2 console access
-- improve validation error responses
-- add explicit controller base path mapping
